@@ -8,16 +8,17 @@ import EditExpense from './components/EditExpense.tsx';
 function App() {
   return (
     <>
-        <Provider store={store}>
+        
           <BrowserRouter>
+            <Provider store={store}>
             <Routes>
               <Route path="/" element={<Expense/>} />
               <Route path="/category" element={<Category />} />
               <Route path="/expense/add" element={<AddExpense />} />
               <Route path="/expense/edit" element={<EditExpense/>} />
             </Routes>
-          </BrowserRouter>
-        </Provider>
+            </Provider>
+          </BrowserRouter> 
     </>
   )
 }
