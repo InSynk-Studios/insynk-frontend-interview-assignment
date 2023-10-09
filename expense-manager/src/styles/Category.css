@@ -1,0 +1,48 @@
+.category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: 10vh;
+}
+
+.category-item-container{
+    text-align: center;
+}
+
+.category-inside-container{
+    position: relative;
+}
+.delete-btn-category{
+    position: absolute;
+    right: 1rem;
+    bottom: 50%;
+    border: none;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.add-div-input{
+    width: 100%;
+    position: relative;
+}
+
+.input-category{
+    width: 90%;
+    border: 2px solid blue;
+    height: 1.5rem;
+}
+.input-add-btn{
+    background-color: blue;
+    color: white;
+}
+.add-btn-category{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+

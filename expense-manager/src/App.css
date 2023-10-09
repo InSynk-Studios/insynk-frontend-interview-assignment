@@ -1,0 +1,9 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+  --primary-text: white;
+  --secondary-text: rgb(75 151 242);
+  --tertiary-text: green;
+  --primary-bg: rgb(75 151 242);
+  --secondary-bg: rgb(196 215 238);
+}

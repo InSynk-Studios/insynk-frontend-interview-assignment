@@ -1,0 +1,41 @@
+.exchange-card-container{
+    margin: 1rem;
+    width: 100%;
+}
+
+.card-container-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.card-container-block-text{
+ font-weight: bolder;
+ font-size: large;
+}
+.card-container-block-inner{
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-text);
+    font-weight: bold;
+}
+
+.card-container-block-inner-cashin{
+    color: var(--tertiary-text);
+}
+a{
+    text-decoration: none;
+}
+
+hr{
+    background-color: var(--primary-bg);
+    margin: 0px;
+}
+
+
+.hr-total{
+    height: 2px;
+}
+
+.hr-work{
+    background-color:var(--tertiary-text) !important;
+}
