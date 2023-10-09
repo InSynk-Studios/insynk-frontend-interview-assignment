@@ -11,10 +11,10 @@ Below are some example question. You can write in your own format.
 I took around 10 to 12 hours.
 
 ## What are some challenges you have in this assignment?
-I stored the data in localstorage to implement which makes difficulty , if I use Redux then it may be more simpler but as mentioned in the instructions so I use storage.
+I stored the data in localstorage to implement which makes little bit difficult , if I use Redux then it may be more simpler, apart from this I didn't face any issue.
 
 ## What are the steps that you decide not to do? What are the reason for it?
-I decided not to use redux because in description mentioned that use storage so I used localstorage
+I decided not to use tailwind css because in instructions it mentioned that I have to use CSS/SCSS.
 
 ## What are some TODO enhancement for this app?
 I authentication in used then it is more usefull also we can make it progressive so that it works in offline mode also
