@@ -57,10 +57,13 @@ const Home = () => {
     <div className="home-page">
       <TopNav titleBtn="Add" titleText="Expenses" btnFunc={btnClickNav} />
       <div className="expense-div">
-      {Object.keys(groupedExpenses).map(date => (
-          <ExpenseCard key={date} date={date}  data={groupedExpenses[date]} />
-        ))}
-
+        {Object.keys(groupedExpenses).length === 0 ? (
+          <p>No expenses</p>
+        ) : (
+          Object.keys(groupedExpenses).map(date => (
+            <ExpenseCard key={date} date={date} data={groupedExpenses[date]} />
+          ))
+        )}
       </div>
       <BottomNav disabledBtn={true} />
     </div>
