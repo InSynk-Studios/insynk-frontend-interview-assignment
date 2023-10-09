@@ -69,7 +69,7 @@ const EditExpense = () => {
       const expenses: Expense[] = JSON.parse(storedExpenses);
       const updatedExpenses = expenses.filter(expense => !(expense.date === date && expense.category.name === category));
       localStorage.setItem('expenses', JSON.stringify(updatedExpenses));
-      toast("Added Successfully");
+      toast("Removed Successfully");
       navigate("/");
     }
   };
