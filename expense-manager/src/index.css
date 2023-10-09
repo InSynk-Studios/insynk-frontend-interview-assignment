@@ -1,0 +1,15 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root {
+    margin: 0px;
+    padding: 0px;
+    --primary-text: white;
+    --secondary-text: blue;
+    --tertiary-text: green;
+    --primary-bg: blue;
+    --secondary-bg: rgb(148, 148, 241);
+  }

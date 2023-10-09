@@ -1,0 +1,27 @@
+.top-nav-container {
+  background-color: var(--secondary-bg);
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: 10vh;
+  color: white;
+}
+
+.top-nav-h1 {
+  margin-left: 2rem; 
+}
+
+.top-nav-btn {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  border: none;
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
